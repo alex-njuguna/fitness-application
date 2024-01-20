@@ -4,6 +4,7 @@
 
 body {
     background-color: aliceblue;
+    color: rgb(110, 4, 4);
 }
 
 @media only screen and (max-width:800px) {
