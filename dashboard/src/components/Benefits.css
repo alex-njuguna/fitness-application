@@ -19,3 +19,19 @@
 .card {
     color: #6E0404;
 }
+
+/* Animation for appearing on load */
+@keyframes appear {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+.container {
+    animation: appear 1s ease-in-out;
+}
