@@ -1,4 +1,41 @@
+.navbar {
+    z-index: 3;
+    border: 1px solid rgb(58, 52, 51);
+}
+
+/* Custom styles for the collapsed navbar */
+@media (max-width: 767px) {
+   
+ #navbarNav {
+      text-align: center; /* Center align the items */
+    }
+  
+    .navbar-toggler {
+      margin-right: 15px; /* Adjust the margin to your preference */
+    }
+  
+    .navbar-collapse {
+      width: 100%; /* Make the collapsed container full width */
+      text-align: center; /* Center align the items in the collapsed container */
+    }
+  
+    .navbar-nav {
+      width: 100%; /* Make the collapsed navbar full width */
+    }
+  
+    .navbar-nav > li {
+      display: block;
+      margin-bottom: 10px; /* Adjust the margin between items in the collapsed navbar */
+    }
+  
+    .navbar-nav.ml-auto {
+      margin-top: 10px; /* Adjust the margin to your preference */
+    }
+  }
+  
+
 .nav-item {
-    margin-left: 10px;
-    margin-right: 10px;
+   margin: 0 10px;
+   font-size: larger;
+   padding: 3px 5px;
 }

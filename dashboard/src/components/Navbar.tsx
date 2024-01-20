@@ -1,13 +1,14 @@
 import logo from "../assets/Logo.png";
 import "./Navbar.css";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top z-3">
+    <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top shadow">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
+        <Link className="navbar-brand" to={"/"}>
           <img src={logo} alt="logo..." />
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -22,36 +23,36 @@ function Navbar() {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav mx-auto">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">
+              <Link className="nav-link active" aria-current="page" to={"/"}>
                 Home
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <Link className="nav-link" to={"/"}>
                 Benefits
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <Link className="nav-link" to={"/"}>
                 Our Classes
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <Link className="nav-link" to={"/"}>
                 Contact Us
-              </a>
+              </Link>
             </li>
           </ul>
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <Link className="nav-link" to={"/"}>
                 Sign In
-              </a>
+              </Link>
             </li>
-            <li className="nav-item">
-              <a className="nav-link btn btn-warning" href="#">
+            <li className="nav-item btn btn-warning">
+              <Link className="nav-link" to={"/"}>
                 Become a Member
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
