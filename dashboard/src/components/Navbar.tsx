@@ -28,29 +28,29 @@ function Navbar() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to={"/"}>
+              <Link className="nav-link" to={"benefits/"}>
                 Benefits
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to={"/"}>
+              <Link className="nav-link" to={"classes/"}>
                 Our Classes
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to={"/"}>
+              <Link className="nav-link" to={"contact/"}>
                 Contact Us
               </Link>
             </li>
           </ul>
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
-              <Link className="nav-link" to={"/"}>
+              <Link className="nav-link" to={"signin/"}>
                 Sign In
               </Link>
             </li>
             <li className="nav-item btn btn-warning">
-              <Link className="nav-link" to={"/"}>
+              <Link className="nav-link" to={"signup/"}>
                 Become a Member
               </Link>
             </li>
