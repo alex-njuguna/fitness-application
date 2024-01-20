@@ -38,7 +38,7 @@ function Home() {
       {/* sponsors */}
       <div
         className="row p-5 rounded sponsors"
-        style={{ background: "#ffd3d6" }}
+        style={{ background: "#ffe5f1" }}
       >
         <div className="col-md-3">
           <img src={redBull} alt="redbull logo" style={{ maxWidth: "100%" }} />
