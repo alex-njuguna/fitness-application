@@ -1,0 +1,13 @@
+.col-md-4 {
+    margin-top: 20px;
+}
+
+.card-title {
+    text-transform: capitalize;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.card-footer {
+    background-color: white;
+}
