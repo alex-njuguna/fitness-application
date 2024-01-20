@@ -1,0 +1,40 @@
+.custom-container-spacing {
+    margin-top: 100px;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+@media only screen and (max-width:800px) {
+    .sponsors {
+        display: none;
+    }
+}
+
+/* Home.css */
+
+/* Animation for appearing on load */
+@keyframes appear {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Apply the animation to the entire content of the Home component */
+  .container.custom-container-spacing {
+    animation: appear 1s ease-out;
+  }
+  
+  /* Apply the animation to each individual sponsor item */
+  .sponsors img {
+    animation: appear 2s ease-out;
+    animation-delay: 0.2s; /* Adjust the delay for a staggered effect */
+  }
+
+  
